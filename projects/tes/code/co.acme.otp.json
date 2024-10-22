@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "startNode-1c2ff18e-fbc7-4d74-bf3e-8a7e4a07bf9c",
+      "type": "startNode",
+      "sourcePosition": "right",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "data": {
+        "id": "startNode-1c2ff18e-fbc7-4d74-bf3e-8a7e4a07bf9c",
+        "type": "startNode",
+        "position": {
+          "x": 30,
+          "y": 40
+        },
+        "agamaData": {
+          "isTopLevelFlow": true,
+          "basepath": "",
+          "configParams": "{}",
+          "nodeIcon": "material-symbols:line-start-square",
+          "timeout": "",
+          "inputs": "",
+          "configs": "",
+          "flowname": "co.acme.otp",
+          "displayName": "OTPFlow",
+          "creationDate": "22/10/2024",
+          "hasComment": true,
+          "comment": ""
+        }
+      }
+    }
+  ]
+}
