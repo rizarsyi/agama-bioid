@@ -6,8 +6,8 @@ idp = Call org.gluu.agama.bioid.IdentityProcessor#new
 input = RRF "login.ftlh" 
 login = Call idp authenticate input.username input.password
 When login is false
-     it_fluer = {success:false, error: "Authentication failed"}
-     Finish it_fluer
+     it_hotbw = {success:false, error: "Authentication failed"}
+     Finish it_hotbw
 enrolled = Call bioid isEnrolled input.username
 When enrolled is false
      Log "@info Not enrolled. Starting enrollment"
@@ -21,7 +21,7 @@ Call bioid getBWSToken input.username "verify"
 verify_token_map = {token:token, return_url: conf.host, state: "abcdef"}
 verification_result = RRF "bioid.ftlh" verify_token_map true
 When verification_result.error is null
-     it_vxhqr = {success:true, data: { userId: input.username}}
-     Finish it_vxhqr
+     it_luyzf = {success:true, data: { userId: input.username}}
+     Finish it_luyzf
 verification_error = {success:true, data: {userId: input.username}}
 Finish verification_error
