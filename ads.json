@@ -41,6 +41,9 @@
             "openid-connect"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "co.acme.otp": {}
+        },
+        "name": "tes"
     }
 }
