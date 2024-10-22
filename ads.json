@@ -26,5 +26,21 @@
             }
         },
         "name": "agama-bioid"
+    },
+    "tes": {
+        "projectName": "tes",
+        "description": "lorem ipsum dolor sit amet",
+        "type": "community",
+        "author": "rizarsyi",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/rizarsyi/agama-bioid",
+        "githubUri": "https://github.com/rizarsyi/agama-bioid",
+        "license": "apache-2.0",
+        "lastUpdated": "1729608085910",
+        "tags": [
+            "openid-connect"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
     }
 }
